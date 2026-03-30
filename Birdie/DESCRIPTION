@@ -1,0 +1,9 @@
+Package: Birdie
+Title: Tools for Simple Data Analysis and Visualization
+Version: 0.0.0.9000
+Authors@R: person("Sophia", "Axel", email = "abs127@usf.edu", role = c("aut", "cre"))
+Description: Birdie is an R package designed to make basic data analysis and visualization easier for students and beginner analysts. The package provides simple functions for cleaning data, generating summary statistics, and creating clear plots for exploratory analysis.
+Depends: R (>= 3.1.2)
+Imports: dplyr, ggplot2
+License: CC0
+RoxygenNote: 7.3.3
