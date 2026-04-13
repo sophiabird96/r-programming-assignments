@@ -1,0 +1,54 @@
+---
+title: "My R Markdown Primer"
+author: "Sophia Axel"
+date: "`April 13, 2026"
+output: html_document
+---
+
+R Markdown is a file format that combines elements of R code in one file. It is a helpful tool for R users as it create reports where the code, results and explanation will be together. This allows for smoother coding for data analyst, students and professional reports. 
+
+In R markdown I like how it lets me explain my thinking while also showing the code that produced my results in one document. This makes it easier as the tables or graphs do not have to go in a sperate doccument and it is easier to follow. 
+
+
+Inline math example: $\alpha + \beta = \gamma$
+
+Displayed equation:
+
+$$
+\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
+$$
+
+```{r}
+library(ggplot2)
+data(mtcars)
+summary(mtcars)
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point() +
+  labs(
+    title = "MPG vs Car Weight",
+    x = "Weight",
+    y = "MPG"
+  )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
